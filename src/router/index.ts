@@ -1,11 +1,12 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
+import VinylWishlist from '../views/VinylWishlist.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Vinyl wishlist',
+    component: VinylWishlist
   },
   {
     path: '/about',
