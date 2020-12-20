@@ -1,6 +1,7 @@
 <template>
   <div>
       <h1>Vinyl wishlist</h1>
+      <p>a change</p>
   </div>
 </template>
 
